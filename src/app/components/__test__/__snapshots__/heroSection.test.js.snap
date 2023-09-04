@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero Section Component renders the component correctly to match snapshot 1`] = `
+<div>
+  <main
+    class="main_section"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="grid_two_section"
+      >
+        <div
+          class="hero_content"
+        >
+          <h1
+            data-testid="title"
+          >
+            Hero Section
+          </h1>
+          <p>
+             
+            From award-winning dramas to blockbuster action movies, we've got you covered. Browse our selection of the latest and greatest movies, and find your new favorite today.
+          </p>
+          <a
+            data-testid="movieLink"
+            href="/movie"
+          >
+            <button
+              class="className"
+            >
+              Explore Movies
+            </button>
+          </a>
+        </div>
+        <div
+          class="hero_image"
+        >
+          <img
+            alt="watching netflix"
+            data-nimg="1"
+            decoding="async"
+            height="500"
+            loading="lazy"
+            src="/_next/image?url=%2Flogo1.png&w=1080&q=75"
+            srcset="/_next/image?url=%2Flogo1.png&w=640&q=75 1x, /_next/image?url=%2Flogo1.png&w=1080&q=75 2x"
+            style="color: transparent;"
+            width="500"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="custom-shape-divider-bottom-1681647578"
+    >
+      <svg
+        data-name="Layer 1"
+        preserveAspectRatio="none"
+        viewBox="0 0 1200 120"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="shape-fill"
+          d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+        />
+      </svg>
+    </div>
+  </main>
+</div>
+`;

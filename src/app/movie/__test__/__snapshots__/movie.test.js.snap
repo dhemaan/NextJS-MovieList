@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movie Component renders the component correctly to match snapshot 1`] = `
+<div>
+  <section
+    class="movieSection"
+  >
+    <div
+      class="container"
+    >
+      <h1
+        data-testid="heading"
+      >
+        Series & Movie
+      </h1>
+      <div
+        class="card_section"
+      >
+        <div
+          class="card"
+          data-testid="cardContainer"
+        >
+          <div
+            class="card_image"
+          >
+            <img
+              alt="Stranger Things"
+              data-nimg="1"
+              data-testid="image"
+              decoding="async"
+              height="200"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Focc-0-116-448.1.nflxso.net%2Fdnm%2Fapi%2Fv6%2F9pS1daC2n6UGc3dUogvWIPMR_OU%2FAAAABdzVHLT6MGyc1z6c-EsS24HF6B7IfzkQ4S52k1l0YB9lX5aqabWYBoUK6D9AK23HW2TgJlQr0s9h4f2b6M4m7cWWTKqIn8mSy0rz2jl3yAVOWmPTiKVCIOlkIA.webp%3Fr%3D9e5&w=640&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Focc-0-116-448.1.nflxso.net%2Fdnm%2Fapi%2Fv6%2F9pS1daC2n6UGc3dUogvWIPMR_OU%2FAAAABdzVHLT6MGyc1z6c-EsS24HF6B7IfzkQ4S52k1l0YB9lX5aqabWYBoUK6D9AK23HW2TgJlQr0s9h4f2b6M4m7cWWTKqIn8mSy0rz2jl3yAVOWmPTiKVCIOlkIA.webp%3Fr%3D9e5&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Focc-0-116-448.1.nflxso.net%2Fdnm%2Fapi%2Fv6%2F9pS1daC2n6UGc3dUogvWIPMR_OU%2FAAAABdzVHLT6MGyc1z6c-EsS24HF6B7IfzkQ4S52k1l0YB9lX5aqabWYBoUK6D9AK23HW2TgJlQr0s9h4f2b6M4m7cWWTKqIn8mSy0rz2jl3yAVOWmPTiKVCIOlkIA.webp%3Fr%3D9e5&w=640&q=75 2x"
+              style="color: transparent;"
+              width="260"
+            />
+          </div>
+          <div
+            class="card_data"
+          >
+            <h2>
+              Stranger Things
+            </h2>
+            <p>
+              When a young boy vanishes, a small town uncovers a mystery involvi ...
+            </p>
+            <a
+              href="/movie/80057281"
+            >
+              <button>
+                Read More
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
