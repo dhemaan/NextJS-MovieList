@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={mulish.className}>
       <head>
+      <link rel="manifest" href="/manifest.json" />
         <meta name="application-name" content="PWA App" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
         <meta name="msapplication-TileColor" content="#2B5797" />
         <meta name="msapplication-tap-highlight" content="no" />
         <meta name="theme-color" content="#000000" />
+
       </head>
       <body>
         <Header />
