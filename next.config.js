@@ -1,12 +1,16 @@
+
+
 /** @type {import('next').NextConfig} */
-const withPWA = require('next-pwa')({
-  
-    dest: "public",
-    register: true,
-    skipWaiting: true
+const runtimeCaching = require('next-pwa/cache');
+
+const withPWA = require('next-pwa')({  
+  dest: 'public',
+  register: true,
+  sw: '/sw.js',
+  runtimeCaching,
 })
-const nextConfig = {
-  dest:'public',
+
+const nextConfig = withPWA({
   experimental: {
     appDir: true,
     serverComponentsExternalPackages: ["mongoose"],
@@ -19,6 +23,6 @@ const nextConfig = {
       },
     ]
   }
-}
+})
 
-module.exports = withPWA(nextConfig)
+module.exports = nextConfig;
