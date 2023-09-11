@@ -56,7 +56,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 #### Get all movies
 
 ```http
-  GET https://netflix54.p.rapidapi.com/search/?query=stranger&offset=0&limit_titles=50&limit_suggestions=20&lang=en
+  GET /search/?query=stranger&offset=0&limit_titles=50&limit_suggestions=20&lang=en
 ```
 
 | Parameter | Type     | Description                |
@@ -66,7 +66,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 #### Get item
 
 ```http
-  GET https://netflix54.p.rapidapi.com/title/details/?ids=${id}&lang=en`
+  GET /title/details/?ids=${id}&lang=en`
 ```
 
 | Parameter | Type     | Description                       |
