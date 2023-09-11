@@ -10,8 +10,8 @@ const Page = async ({ params }) => {
     const options = {
         method: 'GET',
         headers: {
-            "X-RapidAPI-Key": process.env.RAPIDAPIHOST,
-            "X-RapidAPI-Host": process.env.RAPIDAPIKEY,
+            "X-RapidAPI-Key": process.env.RAPIDAPIKEY,
+            "X-RapidAPI-Host": process.env.RAPIDAPIHOST,
         }
     };
 
