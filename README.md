@@ -1,13 +1,13 @@
 
 # Next-JS-Movie-List
 
-This POC is just to explore the Next.JS by implementing the movie library as a thought. In this POC we consume the netfix open API and displays the Movie/show in tiles. On click of Movie/Show it's description page will be opened.
+This POC is just to explore the Next.JS by implementing the movie library as a thought. In this POC, we consume the Netfix open API and display the Movie/show in tiles. On clicking Movie/Show it's description page will be opened.
 
-Implemeted an API for contact US page and to store data used MongoDB.
+implemented an API for the Contact US page and to store data in MongoDB.
 
-Used React-testing-library for writing the test cases. 
+Used React-testing-library for writing the test cases.
 
-Next-PWA npm package used to implement the Prograssive web App capabilities. Where Next-PWA generate the workbox and autogenerating sw.js file.
+Next-PWA npm package is used to implement the Progressive Web App capabilities. Where Next-PWA generates the workbox and auto-generates sw.js file.
 
 ## Getting Started
 
