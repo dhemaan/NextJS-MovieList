@@ -38,7 +38,7 @@ const Herosection = ({ title, imageUrl }) => {
           </div>
         </div>
       </div>
-      <div className={heroStyles["custom-shape-divider-bottom-1681647578"]}>
+      <div className={heroStyles["custom-shape-divider"]}>
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"

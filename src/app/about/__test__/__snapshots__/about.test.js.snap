@@ -51,7 +51,7 @@ exports[`Test cases for About Page Generate Snaphot for About page 1`] = `
       </div>
     </div>
     <div
-      class="custom-shape-divider-bottom-1681647578"
+      class="custom-shape-divider"
     >
       <svg
         data-name="Layer 1"

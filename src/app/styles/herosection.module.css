@@ -52,7 +52,7 @@
 }
 
 /*waves effect */
-.custom-shape-divider-bottom-1681647578 {
+.custom-shape-divider {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -61,14 +61,14 @@
     line-height: 0;
 }
 
-.custom-shape-divider-bottom-1681647578 svg {
+.custom-shape-divider svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 150px;
 }
 
-.custom-shape-divider-bottom-1681647578 .shape-fill {
+.custom-shape-divider .shape-fill {
     fill: #FFFFFF;
 }
 
@@ -88,13 +88,6 @@
     .hero_image img{
         width: 40%;
     }
-
-
-    /*!*waves effect *!*/
-    /*.custom-shape-divider-bottom-1681647578 {*/
-    /*   display: none;*/
-    /*}*/
-
 
 }
 

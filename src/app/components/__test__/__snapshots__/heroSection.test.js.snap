@@ -52,7 +52,7 @@ exports[`Hero Section Component renders the component correctly to match snapsho
       </div>
     </div>
     <div
-      class="custom-shape-divider-bottom-1681647578"
+      class="custom-shape-divider"
     >
       <svg
         data-name="Layer 1"
